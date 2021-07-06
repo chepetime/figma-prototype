@@ -3,7 +3,12 @@ import UserTag from "@/components/user/UserTag";
 import { Wrapper } from "@/components/wrapper/Wrapper.styled";
 import * as S from "./PhotoPreviewSplash.styled";
 
-export default function PhotoPreviewSplash({ picture = "", user = "" }) {
+export default function PhotoPreviewSplash({
+  picture = "",
+  avatar = "",
+  name = "",
+  username = "",
+}) {
   return (
     <S.PhotoPreviewSplash background={picture}>
       <S.Background>

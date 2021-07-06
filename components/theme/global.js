@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 import "@fontsource/roboto/index.css";
+import "@fontsource/roboto/900.css";
 import "@fontsource/comfortaa/index.css";
 
 export default createGlobalStyle`

@@ -28,7 +28,6 @@ export const Name = styled.p`
   font-weight: bold;
   font-size: 0.8125rem;
   line-height: 1.15;
-  letter-spacing: -0.5px;
 
   color: #000000;
 `;
@@ -38,6 +37,6 @@ export const Username = styled.p`
 
   font-size: 0.6875rem;
   line-height: 1.18;
-  letter-spacing: -0.3px;
+
   color: rgba(0, 0, 0, 0.8);
 `;

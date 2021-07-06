@@ -1,5 +1,9 @@
 import Head from "next/head";
+import { QueryClient, QueryClientProvider } from "react-query";
+
 import Theme from "@/components/theme/Theme";
+
+const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,7 +13,9 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <Theme>
-        <Component {...pageProps} />
+        <QueryClientProvider client={queryClient}>
+          <Component {...pageProps} />
+        </QueryClientProvider>
       </Theme>
     </>
   );

@@ -30,11 +30,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - NextJs
 
-> Fullstack react Framework
+> Fullstack React Framework
 
 - Styled-Components
 
 > css-in-js Framewotk
+
+- React Query
+
+> Fetch, cache and update server data
 
 - React Hook Form, yup
 
@@ -54,4 +58,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-José M. G. Lugo
+Made with ❤️ by José M. G. Lugo in Mexico City

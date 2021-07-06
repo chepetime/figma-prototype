@@ -8,8 +8,9 @@ export const Page = styled.div`
   padding: 0;
   overflow: hidden;
 
-  width: 375px;
-  height: 812px;
+  max-width: 375px;
+  max-height: 812px;
+  height: 100vh;
   outline: solid 1px #000;
 
   background: #fff;
