@@ -25,3 +25,33 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Built with
+
+- NextJs
+
+> Fullstack react Framework
+
+- Styled-Components
+
+> css-in-js Framewotk
+
+- React Hook Form, yup
+
+> Form validation tool and schema builder
+
+- Fontsource
+
+> Local host of Google Font web typographies.
+
+- Vercel
+
+> Automatic CD
+
+- GitHub Actions
+
+> Each commit gets installed, built and tested in a virtual environment
+
+---
+
+José M. G. Lugo
