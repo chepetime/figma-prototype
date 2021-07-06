@@ -52,6 +52,8 @@ export const Content = styled.div`
       justify-content: flex-start;
       flex-direction: column;
       flex: 1;
+      overflow: aut0;
+      max-height: none;
     `}
   ${({ showNavigation }) =>
     showNavigation &&

@@ -39,7 +39,7 @@ export default function Page({
             )}
           </S.TopNavigation>
         )}
-        <S.Content showNavigation {...props}>
+        <S.Content showNavigation={showNavigation} {...props}>
           {children}
         </S.Content>
         {showNavigation && <Navigation />}

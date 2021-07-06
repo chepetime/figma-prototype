@@ -9,7 +9,7 @@ import { ActionDrawer } from "@/components/ui/ActionDrawer.styled";
 
 export default function Home() {
   return (
-    <Page title="Photo" fullHeight>
+    <Page title="Photo" fullHeight showNavigation={false}>
       <WelcomeSplash />
 
       <ActionDrawer>
