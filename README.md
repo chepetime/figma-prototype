@@ -4,7 +4,7 @@
 
 ## Demo
 
-You look [a demo here](https://figma-prototype.vercel.app/)
+You can check [the demo here](https://figma-prototype.vercel.app/).
 
 ## Local deployment
 
