@@ -9,7 +9,7 @@ export const fields = {
     placeholder: "Enter your email...",
     defaultValue: "",
     errorMessage: "Required field",
-    validation: yup.string().required(),
+    validation: yup.string().required().email(),
     autocomplete: false,
     "allow-1password": "no",
   },
