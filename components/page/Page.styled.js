@@ -24,6 +24,8 @@ export const TopNavigation = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 2.5rem 0 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
 `;
 
 export const GoBackButton = styled.button`
