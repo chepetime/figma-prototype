@@ -8,7 +8,7 @@ export const Page = styled.div`
   padding: 0;
   overflow: hidden;
 
-  max-width: 375px;
+  max-width: 428px;
   max-height: 812px;
   height: 100vh;
   outline: solid 1px #000;
