@@ -9,7 +9,7 @@ export default function ProtoPreview({
 }) {
   return (
     <div>
-      <Image src={picture} alt={`${name}'s picture`} width="343" height="343" />
+      <Image src={picture} alt={`${name}'s picture`} width="600" height="600" />
       <UserTag avatar={avatar} name={name} username={username} />
     </div>
   );

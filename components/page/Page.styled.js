@@ -6,12 +6,8 @@ export const Page = styled.div`
   flex: 1;
 
   padding: 0;
-  overflow: hidden;
 
-  max-width: 428px;
-
-  height: 100vh;
-  outline: solid 1px #000;
+  min-height: 90vh;
 
   background: #fff;
 
@@ -53,7 +49,7 @@ export const Content = styled.div`
       justify-content: flex-start;
       flex-direction: column;
       flex: 1;
-      overflow: aut0;
+      overflow: auto;
       max-height: none;
     `}
   ${({ showNavigation }) =>

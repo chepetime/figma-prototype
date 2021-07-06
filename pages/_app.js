@@ -3,6 +3,8 @@ import { QueryClient, QueryClientProvider } from "react-query";
 
 import Theme from "@/components/theme/Theme";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps }) {

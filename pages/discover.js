@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { usePosts } from "@/hooks/usePosts";
 
+import { Carousel } from "react-responsive-carousel";
+
 import Page from "@/components/page/Page";
 import { PageTitle } from "@/components/page/Page.styled";
 import { Subtitle } from "@/components/ui/Titles.styled";
@@ -19,16 +21,20 @@ function FetchPosts() {
   return (
     <>
       <Subtitle>What’s new today</Subtitle>
-      <PhotoPreview {...data.posts.new} />
+      <Carousel emulateTouch renderIndicator={false} showStatus={false}>
+        {data.posts.all.map((image, index) => (
+          <PhotoPreview key={`new-${index}`} {...image} />
+        ))}
+      </Carousel>
       <Subtitle>Browse all</Subtitle>
       <Masonry>
-        {data.posts.all.map(({ picture, name, height }, index) => (
+        {data.posts.all.map(({ picture, name }, index) => (
           <Image
             key={`masonrychild-${index}`}
             src={picture}
             alt={`${name}'s picture`}
-            width="167"
-            height="220"
+            width="400"
+            height="400"
           />
         ))}
       </Masonry>

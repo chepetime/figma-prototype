@@ -30,6 +30,7 @@ export const Name = styled.p`
   line-height: 1.15;
 
   color: #000000;
+  text-align: left; ;
 `;
 
 export const Username = styled.p`
@@ -39,4 +40,5 @@ export const Username = styled.p`
   line-height: 1.18;
 
   color: rgba(0, 0, 0, 0.8);
+  text-align: left; ;
 `;

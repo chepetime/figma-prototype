@@ -5,7 +5,7 @@ import { FlexCenter } from "@/components/theme/mixins";
 export const Navigation = styled.div`
   height: 5.125rem;
   background: #fff;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -17,6 +17,8 @@ export const Navigation = styled.div`
 export const Container = styled.div`
   display: flex;
   padding: 0.25rem 0;
+  max-width: 600px;
+  margin: 0 auto;
 `;
 
 export const SimpleLink = styled.div`

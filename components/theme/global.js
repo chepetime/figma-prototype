@@ -16,7 +16,7 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    background: #151515
+    background: #fff
   }
 
   a {
